@@ -1,78 +1,82 @@
-🎬 AI Movie Recommendation System
+# 🎬 Movie Recommendation System (AI Project)
 
-A beginner-friendly AI-powered Movie Recommendation Web App built using Python and Streamlit that suggests similar movies and displays their posters.
+An interactive **Movie Recommendation Web App** that suggests similar movies based on genre.  
+Built using **Python**, **Pandas**, and **Streamlit**, and deployed live on the web.
 
-🔗 Live App: https://movie-recommendation-system-pbkepcnxye4v8out2z3js.streamlit.app
+---
 
-🚀 Features
+## 🚀 Live App
 
-🎥 Select a movie from the list
+🌍 **Try it here:**  
+👉 https://movie-recommendation-system-pbkepcnyxe4v8out2z3js.streamlit.app
 
-🤖 Get AI-based movie recommendations
+---
 
-🖼️ View movie posters
+## 🧠 How It Works
 
-🌐 Fully deployed on Streamlit Cloud
+This system recommends movies based on **genre similarity**.
 
-⚡ Fast and interactive UI
+When a user selects a movie:
+1. The app finds its genre  
+2. It searches the dataset for other movies in the same genre  
+3. Displays recommended movies with **posters**
 
-🧠 How It Works
+---
 
-This project uses content-based filtering.
-It recommends movies based on genre similarity and fetches posters using the TMDB API.
+## 🛠️ Technologies Used
 
-🛠️ Tech Stack
-Technology	Purpose
-Python	Core programming
-Pandas	Data handling
-Streamlit	Web app framework
-TMDB API	Fetch movie posters
-📂 Project Structure
+- **Python**
+- **Pandas** (Data handling)
+- **Streamlit** (Web app framework)
+- **TMDb API** (Movie posters)
+- **GitHub** (Version control)
+- **Streamlit Cloud** (Deployment)
+
+---
+
+## 📸 Features
+
+✅ Select a movie from dropdown  
+✅ Get similar movie recommendations  
+✅ Movie posters displayed  
+✅ Clean and modern UI  
+✅ Fully deployed online  
+
+---
+
+## 📂 Project Structure
+
 movie-recommendation-system/
-│
-├── app.py               # Main Streamlit app
-├── movies.csv           # Movie dataset
-├── requirements.txt     # Required libraries
-└── posters/             # Stored movie posters
+│── app.py # Streamlit application
+│── movies.csv # Movie dataset
+│── requirements.txt # Python dependencies
 
-▶️ Run Locally
-1️⃣ Clone the repository
+
+---
+
+## ⚙️ Installation (Run Locally)
+
+```bash
 git clone https://github.com/rahulbansal024/movie-recommendation-system.git
 cd movie-recommendation-system
-
-2️⃣ Install dependencies
 pip install -r requirements.txt
-
-3️⃣ Run the app
 streamlit run app.py
+🎯 Learning Objectives
+This project helped me learn:
 
-🌍 Deployment
+Building AI-based recommendation logic
 
-This project is deployed using Streamlit Community Cloud.
+Working with datasets using Pandas
 
-To deploy your own:
+Creating web apps with Streamlit
 
-Push code to GitHub
+API integration (for movie posters)
 
-Go to https://share.streamlit.io
+Deploying AI projects online
 
-Connect your repository
+⚠️ Disclaimer
+This project is for educational purposes only.
+Movie data and posters are sourced from TMDb API.
 
-Select app.py
-
-Click Deploy 🚀
-
-📌 Future Improvements
-
-🎯 Add advanced AI similarity (cosine similarity)
-
-🔍 Search movies instead of dropdown
-
-❤️ Add favorites/watchlist
-
-🎨 Improve UI with movie cards
-
-🙌 Author
-
-Rahul Bansal
-AI & Data Science Student
+👨‍💻 Developed by Rahul Bansal
+📧 Contact: rahulbansalvip8523@gmail.com
